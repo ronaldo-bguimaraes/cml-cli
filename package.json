@@ -1,0 +1,21 @@
+{
+  "name": "@ronaldobg/cml-cli",
+  "version": "1.0.0",
+  "main": "./dist",
+  "author": "Ronaldo Borges Guimarães",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.6.2",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "scripts": {
+    "build": "yarn webpack",
+    "start": "yarn webpack && node ./dist"
+  },
+  "dependencies": {
+    "@ronaldobg/cml": "^1.0.3"
+  }
+}
